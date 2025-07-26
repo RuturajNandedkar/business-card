@@ -1,19 +1,26 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+🪪 Animated Business Card (HTML + CSS)
+This project is a responsive and stylish digital business card built using only HTML and CSS. It includes personalized design features such as a custom color palette, hover effects, shadows, and smooth animations.
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+✨ Features
+💡 Modern layout with flexbox
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+🎨 Custom color palette inspired by Coolors.co
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+🖼️ Avatar/profile image support
 
-Happy Coding!
+✍️ Web-safe fonts
+
+🐭 Hover effects with elevation and color shift
+
+🎬 CSS animations (fade-in and hover pulse)
+
+🔲 Optional dotted border for debugging or styling
+
+📦 Fully self-contained and easy to customize
+
+🚀 How It Works
+The .card component uses flexbox to arrange content horizontally.
+
+On page load, the card fades in from the bottom using @keyframes fadeInUp.
+
+On hover, the card lifts slightly with a shadow effect and changes background color, with an optional pulse animation.
